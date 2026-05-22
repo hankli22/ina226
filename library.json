@@ -1,0 +1,20 @@
+{
+    "name": "ina226",
+    "version": "1.0.0",
+    "description": "INA226 功率监测传感器驱动 / INA226 power monitor sensor driver for ESP32 (ESP-IDF)",
+    "keywords": "ina226, current-sensor, power-monitor, voltage, shunt, i2c, esp32, esp-idf",
+    "authors": {
+        "name": "hankli22"
+    },
+    "license": "Apache-2.0",
+    "frameworks": "espidf",
+    "platforms": "espressif32",
+    "headers": "ina226.h",
+    "examples": [
+        {
+            "name": "basic",
+            "base": "examples/basic",
+            "files": ["main.cpp"]
+        }
+    ]
+}

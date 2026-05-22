@@ -18,9 +18,9 @@ The INA226 from Texas Instruments is a high-accuracy digital power/current monit
    ┌────────┐            ┌──────────┐
    │   SDA  ├────────────┤ SDA      │
    │   SCL  ├────────────┤ SCL      │
-   │   3.3V ├────────────┤ VCC       │
+   │   3.3V ├────────────┤ VCC      │
    │   GND  ├────────────┤ GND      │
-   │  (GPIO)├────────────┤ ALERT     │ (可选 / optional)
+   │  (GPIO)├────────────┤ ALERT    │ (可选 / optional)
    │        │   ┌─Rshunt─┤ VIN+     │
    │        │   │        │ VIN-     │
    └────────┘   └────────┴──────────┘
